@@ -20,7 +20,7 @@ targets:
       - Sources
     dependencies:
       # 👇
-      - framework: RealmSwift.framework
+      - framework: Alamofire.framework
         implicit: true
 ```
 
@@ -36,14 +36,14 @@ targets:
       - Sources
     dependencies:
       # 👇
-      - target: Realm/RealmSwift
+      - target: Alamofire/Alamofire iOS
 projectReferences:
   # 👇
-  Realm:
-    path: ./Carthage/Checkouts/realm-cocoa/Realm.xcodeproj
+  Alamofire:
+    path: ./Carthage/Checkouts/Alamofire/Alamofire.xcodeproj
 ```
 
-便利ですね。
+以上です。
 
 - https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md#dependency
 - https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md#project-reference
