@@ -45,6 +45,5 @@ projectReferences:
 
 以上です。
 
-- https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md#dependency
-- https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md#project-reference
-
+https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md#dependency
+https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md#project-reference
