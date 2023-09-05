@@ -9,8 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
   "dependencies": {
-    "zenn-cli": "^0.1.117"
-  },
-  "private": true
+    "zenn-cli": "^0.1.144"
+  }
 }
